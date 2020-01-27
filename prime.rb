@@ -14,6 +14,8 @@ def prime?(number)
       end
       count += 1
     end
+  else
+    return false
   end
   #prm
 end
