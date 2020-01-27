@@ -6,3 +6,4 @@ def prime?(number)
   else
     prm
   end
+end
