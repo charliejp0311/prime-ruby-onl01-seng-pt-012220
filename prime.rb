@@ -4,5 +4,5 @@ def prime?(number)
   if number > 1
       prm = true
   else
-    prm 
+    prm
   end
