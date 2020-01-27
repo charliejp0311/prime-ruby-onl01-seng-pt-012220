@@ -1,11 +1,8 @@
 # Add  code here!
 def prime?(number)
-  prm = true
-  if number < 0 || number == 0
-    prm = false
-    return prm
+  prm = false
+  if number > 1
+      prm = true
   else
-
-    prm
+    prm 
   end
-end
