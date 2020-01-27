@@ -7,7 +7,7 @@ def prime?(number)
     return prm
   else
     test_numbers = [2...(number - 1)]
-    count = 0 
+    count = 0
     while count < test_numbers.length
       if number % test_numbers[count] == 0
         prm = false
