@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  divisible = [1..(number - 1)]
+  divisible = [1..(number)]
   i = 0
   prm = true
   while i < divisible.length
