@@ -4,7 +4,7 @@ def prime?(number)
   if number > 1
     return true
   elsif number > 2
-      test_numbers = [2...(number - 1)]
+      test_numbers = (2..(number - 1)).to_a
       pp test_numbers
       count = 0
       while count < test_numbers.length
@@ -18,4 +18,5 @@ def prime?(number)
     return false
   end
   #prm
+
 end
