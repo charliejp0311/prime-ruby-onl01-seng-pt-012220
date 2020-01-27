@@ -14,3 +14,4 @@ def prime?(number)
   end
   prm
 end
+prime?(4)
