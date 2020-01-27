@@ -11,7 +11,7 @@ def prime?(number)
     divisible = [1..(number)]
     i = 1
 
-    divisible.each do 
+    divisible.each do
       if i % divisible[i-1] == 0
         prm = false
         return prm
