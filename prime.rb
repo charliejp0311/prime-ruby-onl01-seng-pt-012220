@@ -8,7 +8,6 @@ def prime?(number)
     test_numbers.each do |num|
       puts num % number
         #prm = false
-      end
     end
   end
   prm
