@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
-  prm = false
-  if number > 1
+  #prm = false
+  if number >= 1
     if number > 2
       test_numbers = [2...(number - 1)]
       pp test_numbers
