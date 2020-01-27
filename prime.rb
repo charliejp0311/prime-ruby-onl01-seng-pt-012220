@@ -6,7 +6,7 @@ def prime?(number)
   else
     test_numbers = [2 .. (number)]
     test_numbers.each do |num|
-      pp num % number
+      puts num % number
         #prm = false
       end
     end
