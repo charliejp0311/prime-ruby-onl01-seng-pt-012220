@@ -4,7 +4,7 @@ def prime?(number)
   if number < 0
     prm = false
     return prm
-  elsif number == 0
+  elsif number == 0 || number == 1
     prm = false
     return prm
   else
