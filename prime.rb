@@ -4,6 +4,9 @@ def prime?(number)
   if number < 0
     prm = false
     return prm
+  elsif number == 0
+    prm = false
+    return prm
   else
     divisible = [1..(number)]
     i = 1
