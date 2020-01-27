@@ -4,14 +4,12 @@ def prime?(number)
   i = 1
   prm = true
   while i < divisible.length
-    if (i) % divisible[i-1] == 0
+    if i % divisible[i-1] == 0
       prm = false
       return prm
     else
       i += 1
     end
-
   end
   prm
-
 end
