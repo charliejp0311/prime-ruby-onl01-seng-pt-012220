@@ -7,9 +7,9 @@ def prime?(number)
     return prm
   else
     test_numbers = [2...(number - 1)]
-    pp test_numbers
-    test_numbers.each do |num|
-      if number % num == 0
+    count = 0 
+    while count < test_numbers.length
+      if number % test_numbers[count] == 0
         prm = false
       end
     end
