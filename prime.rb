@@ -10,7 +10,7 @@ def prime?(number)
   elsif number == 2 || number == 3
     return prm
   else
-    divisible = [1..(number)]
+    divisible = [1..(number-1)]
     i = 1
 
     divisible.each do
