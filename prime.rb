@@ -5,7 +5,9 @@ def prime?(number)
       prm = true
   else
     test_numbers = [2 .. (number)]
-    pp test_numbers
+    test_numbers.each do |num|
+      pp num
+    end
   end
   prm
 end
