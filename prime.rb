@@ -11,10 +11,9 @@ def prime?(number)
     return prm
   else
     divisible = [1..(number-1)]
-    i = 1
-
-    divisible.each do
-      if i % divisible[i-1] == 0
+    i = 0
+    divisible.each do |num|
+      if (i + 1) % num == 0
         prm = false
         return prm
       else
