@@ -5,6 +5,7 @@ def prime?(number)
     prm = true
   elsif number > 2
     test_numbers = [2...(number - 1)]
+    pp test_numbers
     count = 0
     while count < test_numbers.length
       #pp number % test_numbers[count]
