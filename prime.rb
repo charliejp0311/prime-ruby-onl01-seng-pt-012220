@@ -7,6 +7,8 @@ def prime?(number)
   elsif number == 0 || number == 1
     prm = false
     return prm
+  elsif number == 2
+    return prm
   else
     divisible = [1..(number)]
     i = 1
