@@ -1,15 +1,21 @@
 # Add  code here!
 def prime?(number)
-  divisible = [1..(number)]
-  i = 1
   prm = true
-  while i < divisible.length
-    if i % divisible[i-1] == 0
-      prm = false
-      return prm
-    else
-      i += 1
+  if number < 0
+    prm = false
+    return prm
+  else
+    divisible = [1..(number)]
+    i = 1
+
+    while i < divisible.length
+      if i % divisible[i-1] == 0
+        prm = false
+        return prm
+      else
+        i += 1
+      end
     end
+    prm
   end
-  prm
 end
