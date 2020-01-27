@@ -10,6 +10,7 @@ def prime?(number)
       if number % test_numbers[count] == 0
         prm = false
       end
+      count += 1
     end
   end
   prm
