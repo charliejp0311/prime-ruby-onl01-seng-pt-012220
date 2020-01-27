@@ -8,7 +8,7 @@ def prime?(number)
     test_numbers = [2 .. (number)]
     test_numbers.each do |num|
       binding.pry
-      num % number
+      pp num % number
         #prm = false
     end
   end
