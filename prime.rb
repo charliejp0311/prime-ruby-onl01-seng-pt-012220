@@ -4,7 +4,7 @@ def prime?(number)
   i = 0
   prm = true
   while i < divisible.length
-    if i % divisible[i] == 0
+    if (i + 1) % divisible[i] == 0
       prm = false
       break
     else
