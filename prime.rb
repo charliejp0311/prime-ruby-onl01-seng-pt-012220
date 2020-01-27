@@ -6,7 +6,7 @@ def prime?(number)
   while i < divisible.length
     if (i) % divisible[i-1] == 0
       prm = false
-      break
+      return prm
     else
       i += 1
     end
