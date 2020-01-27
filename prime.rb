@@ -4,7 +4,7 @@ def prime?(number)
   if number > 1
       prm = true
   else
-    test_numbers = [2 .. (number - 1)]
+    test_numbers = [2 .. (number)]
     pp test_numbers
   end
   prm
